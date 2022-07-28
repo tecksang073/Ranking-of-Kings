@@ -1,0 +1,15 @@
+{
+    "name": "TurnbaseRPGEditor",
+    "references": [
+        "TurnbaseRPG",
+        "UnityEditorUtilsEditor",
+        "UnityEditorUtils",
+        "BaseRPG"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

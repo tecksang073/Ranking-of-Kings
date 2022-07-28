@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd4d453785d383b4c91014d5e9089fca, type: 3}
+  m_Name: BlackKnight
+  m_EditorClassIdentifier: 
+  title: Black Knight
+  description: 
+  icon: {fileID: 21300000, guid: 21d1b21b2da4ac242af2400fa0707413, type: 3}
+  category: 
+  itemTier: {fileID: 11400000, guid: ca503a7be248b784ebe10c1df6982e84, type: 2}
+  maxStack: 1
+  useFixSellPrice: 0
+  fixSellPrice: 0
+  useFixLevelUpPrice: 0
+  fixLevelUpPrice: 0
+  useFixRewardExp: 0
+  fixRewardExp: 0
+  attributes:
+    hp:
+      minValue: 655
+      maxValue: 1638
+      growth: 1.5
+    pAtk:
+      minValue: 148
+      maxValue: 370
+      growth: 1.5
+    pDef:
+      minValue: 139
+      maxValue: 348
+      growth: 1.5
+    mAtk:
+      minValue: 81
+      maxValue: 203
+      growth: 1.5
+    mDef:
+      minValue: 81
+      maxValue: 203
+      growth: 1.5
+    spd:
+      minValue: 103
+      maxValue: 258
+      growth: 1.5
+    eva:
+      minValue: 92
+      maxValue: 230
+      growth: 1.5
+    acc:
+      minValue: 102
+      maxValue: 255
+      growth: 1.5
+  hpRateToSetMax: 2.5
+  pAtkRateToSetMax: 2.5
+  pDefRateToSetMax: 2.5
+  mAtkRateToSetMax: 2.5
+  mDefRateToSetMax: 2.5
+  spdRateToSetMax: 2.5
+  evaRateToSetMax: 2.5
+  accRateToSetMax: 2.5
+  createEvolveItems:
+  - title: 
+    description: 
+    icon: {fileID: 21300000, guid: 011c9637aafdcde42a0a866317a0fcc0, type: 3}
+    itemTier: {fileID: 11400000, guid: e9dd5c3b9399c6a4186f755fc2ef7293, type: 2}
+    attributesRate: 1.05
+  - title: 
+    description: 
+    icon: {fileID: 21300000, guid: 685a229e6593f804191af80775959db9, type: 3}
+    itemTier: {fileID: 11400000, guid: f84e57171cd859b428231328fa4decad, type: 2}
+    attributesRate: 1.1
+  - title: 
+    description: 
+    icon: {fileID: 21300000, guid: 395be617a3b9b374b87109efde9edbec, type: 3}
+    itemTier: {fileID: 11400000, guid: 7b2ea410eb3cf404fb6987180379f2a5, type: 2}
+    attributesRate: 1.15
+  attackAnimations:
+  - {fileID: 11400000, guid: cb4b16e64c3b9f444ae0349e99c2c881, type: 2}
+  skills:
+  - {fileID: 11400000, guid: 6dc643d77adcc9341aea1a96164f1f15, type: 2}
+  - {fileID: 11400000, guid: 4bfa3c6f192d2324c845ce9171d88802, type: 2}
+  model: {fileID: 114540471009207542, guid: 42e46758f342d504daa223bf66f4b2d3, type: 2}
+  evolveInfo:
+    requiredMaterials:
+    - item: {fileID: 11400000, guid: 322e6b0cb5e77b341a2e3ccaa9909b1c, type: 2}
+      amount: 1
+    evolveItem: {fileID: 11400000, guid: 7347dde0b09008247a9ab3dee549cb43, type: 2}

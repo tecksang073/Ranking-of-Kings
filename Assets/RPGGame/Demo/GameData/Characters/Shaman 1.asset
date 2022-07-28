@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd4d453785d383b4c91014d5e9089fca, type: 3}
+  m_Name: Shaman 1
+  m_EditorClassIdentifier: 
+  title: Shaman
+  description: 
+  icon: {fileID: 21300000, guid: 3ced0113054ec2c44a52b1eb252d4f01, type: 3}
+  category: 
+  itemTier: {fileID: 11400000, guid: e9dd5c3b9399c6a4186f755fc2ef7293, type: 2}
+  maxStack: 1
+  useFixSellPrice: 0
+  fixSellPrice: 0
+  useFixLevelUpPrice: 0
+  fixLevelUpPrice: 0
+  useFixRewardExp: 0
+  fixRewardExp: 0
+  attributes:
+    hp:
+      minValue: 475
+      maxValue: 2568
+      growth: 1.5
+    pAtk:
+      minValue: 87
+      maxValue: 474
+      growth: 1.5
+    pDef:
+      minValue: 85
+      maxValue: 462
+      growth: 1.5
+    mAtk:
+      minValue: 148
+      maxValue: 802
+      growth: 1.5
+    mDef:
+      minValue: 140
+      maxValue: 757
+      growth: 1.5
+    spd:
+      minValue: 146
+      maxValue: 792
+      growth: 1.5
+    eva:
+      minValue: 112
+      maxValue: 609
+      growth: 1.5
+    acc:
+      minValue: 110
+      maxValue: 598
+      growth: 1.5
+  hpRateToSetMax: 1
+  pAtkRateToSetMax: 1
+  pDefRateToSetMax: 1
+  mAtkRateToSetMax: 1
+  mDefRateToSetMax: 1
+  spdRateToSetMax: 1
+  evaRateToSetMax: 1
+  accRateToSetMax: 1
+  createEvolveItems: []
+  attackAnimation: {fileID: 11400000, guid: 1b008254334c65a43967941711630b02, type: 2}
+  attackAnimations:
+  - {fileID: 11400000, guid: 1b008254334c65a43967941711630b02, type: 2}
+  skills:
+  - {fileID: 11400000, guid: 41f89cfd1afbc4e40b425a57464f3eba, type: 2}
+  - {fileID: 11400000, guid: f19ce7a7a5267c54c93c766edcbdf345, type: 2}
+  model: {fileID: 114248404645892236, guid: c0ac42ea2f376734fb29c8257455913d, type: 2}
+  evolveInfo:
+    requiredMaterials:
+    - item: {fileID: 11400000, guid: 322e6b0cb5e77b341a2e3ccaa9909b1c, type: 2}
+      amount: 1
+    evolveItem: {fileID: 11400000, guid: d4a108b78e7a9be41bd11415de1e3996, type: 2}

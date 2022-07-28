@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd4d453785d383b4c91014d5e9089fca, type: 3}
+  m_Name: BlackKnight 2
+  m_EditorClassIdentifier: 
+  title: Black Knight
+  description: 
+  icon: {fileID: 21300000, guid: 685a229e6593f804191af80775959db9, type: 3}
+  category: 
+  itemTier: {fileID: 11400000, guid: f84e57171cd859b428231328fa4decad, type: 2}
+  maxStack: 1
+  useFixSellPrice: 0
+  fixSellPrice: 0
+  useFixLevelUpPrice: 0
+  fixLevelUpPrice: 0
+  useFixRewardExp: 0
+  fixRewardExp: 0
+  attributes:
+    hp:
+      minValue: 720
+      maxValue: 6637
+      growth: 1.5
+    pAtk:
+      minValue: 163
+      maxValue: 1499
+      growth: 1.5
+    pDef:
+      minValue: 153
+      maxValue: 1411
+      growth: 1.5
+    mAtk:
+      minValue: 89
+      maxValue: 824
+      growth: 1.5
+    mDef:
+      minValue: 89
+      maxValue: 824
+      growth: 1.5
+    spd:
+      minValue: 113
+      maxValue: 1046
+      growth: 1.5
+    eva:
+      minValue: 101
+      maxValue: 932
+      growth: 1.5
+    acc:
+      minValue: 112
+      maxValue: 1033
+      growth: 1.5
+  hpRateToSetMax: 1
+  pAtkRateToSetMax: 1
+  pDefRateToSetMax: 1
+  mAtkRateToSetMax: 1
+  mDefRateToSetMax: 1
+  spdRateToSetMax: 1
+  evaRateToSetMax: 1
+  accRateToSetMax: 1
+  createEvolveItems: []
+  attackAnimation: {fileID: 11400000, guid: cb4b16e64c3b9f444ae0349e99c2c881, type: 2}
+  attackAnimations:
+  - {fileID: 11400000, guid: cb4b16e64c3b9f444ae0349e99c2c881, type: 2}
+  skills:
+  - {fileID: 11400000, guid: 6dc643d77adcc9341aea1a96164f1f15, type: 2}
+  - {fileID: 11400000, guid: 4bfa3c6f192d2324c845ce9171d88802, type: 2}
+  model: {fileID: 114540471009207542, guid: 42e46758f342d504daa223bf66f4b2d3, type: 2}
+  evolveInfo:
+    requiredMaterials:
+    - item: {fileID: 11400000, guid: 322e6b0cb5e77b341a2e3ccaa9909b1c, type: 2}
+      amount: 1
+    evolveItem: {fileID: 11400000, guid: de0c23fd1a9625b4eb79ee93c06b6da3, type: 2}

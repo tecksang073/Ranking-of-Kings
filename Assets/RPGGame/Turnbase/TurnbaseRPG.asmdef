@@ -1,0 +1,15 @@
+{
+    "name": "TurnbaseRPG",
+    "references": [
+        "BaseRPGEditor",
+        "BaseRPG",
+        "UIUtilities",
+        "CameraAndInput",
+        "UnityEditorUtilsEditor",
+        "UnityEditorUtils"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

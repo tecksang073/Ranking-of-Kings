@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd53a47600a04b945a048102c061daa8, type: 3}
+  m_Name: HardCurrency
+  m_EditorClassIdentifier: 
+  title: Hard Currency Lootbox
+  description: Summon 2-3 stars characters
+  icon: {fileID: 21300000, guid: 729a9d7b6ee18d34abd99300be6f8d5e, type: 3}
+  requirementType: 1
+  requireCurrencyAmount: 5
+  lootboxPacks:
+  - openAmount: 1
+    price: 5
+  - openAmount: 10
+    price: 50
+  lootboxRewards:
+  - rewardItem:
+      item: {fileID: 11400000, guid: ad5e60db48cb6a946a0e69c2b70dcf67, type: 2}
+      amount: 1
+    randomWeight: 10
+  - rewardItem:
+      item: {fileID: 11400000, guid: d4a108b78e7a9be41bd11415de1e3996, type: 2}
+      amount: 1
+    randomWeight: 10
+  - rewardItem:
+      item: {fileID: 11400000, guid: 45c53eb702cdd3f4a8235992632f97d6, type: 2}
+      amount: 1
+    randomWeight: 10
+  - rewardItem:
+      item: {fileID: 11400000, guid: 7347dde0b09008247a9ab3dee549cb43, type: 2}
+      amount: 1
+    randomWeight: 20
+  - rewardItem:
+      item: {fileID: 11400000, guid: 904ce3bf85d1da747aad95224bb0f9c2, type: 2}
+      amount: 1
+    randomWeight: 20
+  - rewardItem:
+      item: {fileID: 11400000, guid: 91c5d83daedaf584d983fae483db543a, type: 2}
+      amount: 1
+    randomWeight: 20

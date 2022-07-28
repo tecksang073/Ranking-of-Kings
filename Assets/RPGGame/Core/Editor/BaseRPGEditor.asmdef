@@ -1,0 +1,23 @@
+{
+    "name": "BaseRPGEditor",
+    "references": [
+        "UnityEditorUtilsEditor",
+        "UnityEditorUtils",
+        "BaseRPG",
+        "UnityEditor.Purchasing",
+        "UnityEngine.Purchasing",
+        "UnityEngine.Purchasing.Codeless",
+        "UnityEngine.Purchasing.Stores"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

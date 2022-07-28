@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e36500cdce81d5944b2cd6cef0c4d17d, type: 3}
+  m_Name: SkillMushroom01
+  m_EditorClassIdentifier: 
+  title: Poison Bite
+  description: Attack 80% damage with chance 100% to apply poison
+  usageScope: 2
+  icon: {fileID: 21300000, guid: 86f2562c44671d64992acc67dd8cc74d, type: 3}
+  coolDownTurns: 5
+  attacks:
+  - attackScope: 0
+    attackAnimation: {fileID: 11400000, guid: cb4b16e64c3b9f444ae0349e99c2c881, type: 2}
+    attackDamage:
+      fixDamage: 0
+      pAtkDamageRate: 0.8
+      mAtkDamageRate: 0.8
+      hitCount: 1
+  buffs:
+  - buffScope: 1
+    icon: {fileID: 21300000, guid: 86f2562c44671d64992acc67dd8cc74d, type: 3}
+    buffEffects:
+      bodyEffect: {fileID: 0}
+      floorEffect: {fileID: 114544919222897184, guid: 64ec5a92c27600343841e8682bae29d8,
+        type: 2}
+    type: 0
+    applyChance: 0.5
+    applyTurns: 2
+    clearBuffs: 0
+    clearNerfs: 0
+    isStun: 0
+    attributes:
+      hp: 0
+      pAtk: 0
+      pDef: 0
+      mAtk: 0
+      mDef: 0
+      spd: 0
+      eva: 0
+      acc: 0
+      hpRate: 0
+      pAtkRate: 0
+      pDefRate: 0
+      mAtkRate: 0
+      mDefRate: 0
+      spdRate: 0
+      evaRate: 0
+      accRate: 0
+      critChance: 0
+      critDamageRate: 0
+      blockChance: 0
+      blockDamageRate: 0
+    pAtkHealRate: -0.25
+    mAtkHealRate: -0.25
+  castAnimation: {fileID: 11400000, guid: 7e195e261cde96542b38f3a4ddd67346, type: 2}

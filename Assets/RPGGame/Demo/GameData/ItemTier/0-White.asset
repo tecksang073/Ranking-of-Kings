@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d1f523868402ac4191c5c4280666a9d, type: 3}
+  m_Name: 0-White
+  m_EditorClassIdentifier: 
+  title: White
+  description: 
+  icon: {fileID: 0}
+  maxLevel: 20
+  expTable:
+    minValue: 10
+    maxValue: 2206
+    growth: 2.5
+  sellPriceTable:
+    minValue: 100
+    maxValue: 2000
+    growth: 1
+  levelUpPriceTable:
+    minValue: 50
+    maxValue: 1000
+    growth: 1
+  rewardExpTable:
+    minValue: 7
+    maxValue: 1544
+    growth: 2.5
+  evolvePrice: 1000

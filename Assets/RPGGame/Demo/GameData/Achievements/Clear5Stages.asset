@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 779f3dc6d2f2077478a56f72d3ea77f8, type: 3}
+  m_Name: Clear5Stages
+  m_EditorClassIdentifier: 
+  title: Clear 5 Stages
+  description: 
+  tag: 
+  icon: {fileID: 21300000, guid: 3903282477f649f4f82a7b96a420161c, type: 3}
+  type: 0
+  targetAmount: 5
+  rewardSoftCurrency: 1000
+  rewardHardCurrency: 5
+  rewardPlayerExp: 100
+  rewardItems: []

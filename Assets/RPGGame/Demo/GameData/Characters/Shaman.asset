@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd4d453785d383b4c91014d5e9089fca, type: 3}
+  m_Name: Shaman
+  m_EditorClassIdentifier: 
+  title: Shaman
+  description: 
+  icon: {fileID: 21300000, guid: 881bef7513ede244890c5ab3cee58d54, type: 3}
+  category: 
+  itemTier: {fileID: 11400000, guid: ca503a7be248b784ebe10c1df6982e84, type: 2}
+  maxStack: 1
+  useFixSellPrice: 0
+  fixSellPrice: 0
+  useFixLevelUpPrice: 0
+  fixLevelUpPrice: 0
+  useFixRewardExp: 0
+  fixRewardExp: 0
+  attributes:
+    hp:
+      minValue: 452
+      maxValue: 1130
+      growth: 1.5
+    pAtk:
+      minValue: 83
+      maxValue: 208
+      growth: 1.5
+    pDef:
+      minValue: 81
+      maxValue: 203
+      growth: 1.5
+    mAtk:
+      minValue: 141
+      maxValue: 353
+      growth: 1.5
+    mDef:
+      minValue: 133
+      maxValue: 333
+      growth: 1.5
+    spd:
+      minValue: 139
+      maxValue: 348
+      growth: 1.5
+    eva:
+      minValue: 107
+      maxValue: 268
+      growth: 1.5
+    acc:
+      minValue: 105
+      maxValue: 263
+      growth: 1.5
+  hpRateToSetMax: 2.5
+  pAtkRateToSetMax: 2.5
+  pDefRateToSetMax: 2.5
+  mAtkRateToSetMax: 2.5
+  mDefRateToSetMax: 2.5
+  spdRateToSetMax: 2.5
+  evaRateToSetMax: 2.5
+  accRateToSetMax: 2.5
+  createEvolveItems:
+  - title: 
+    description: 
+    icon: {fileID: 21300000, guid: 3ced0113054ec2c44a52b1eb252d4f01, type: 3}
+    itemTier: {fileID: 11400000, guid: e9dd5c3b9399c6a4186f755fc2ef7293, type: 2}
+    attributesRate: 1.05
+  - title: 
+    description: 
+    icon: {fileID: 21300000, guid: e000ea883eeae354abb45c7b80cb0ab2, type: 3}
+    itemTier: {fileID: 11400000, guid: f84e57171cd859b428231328fa4decad, type: 2}
+    attributesRate: 1.1
+  - title: 
+    description: 
+    icon: {fileID: 21300000, guid: 12b4e6e2aea178449b555bd4746de878, type: 3}
+    itemTier: {fileID: 11400000, guid: 7b2ea410eb3cf404fb6987180379f2a5, type: 2}
+    attributesRate: 1.15
+  attackAnimation: {fileID: 11400000, guid: 1b008254334c65a43967941711630b02, type: 2}
+  attackAnimations:
+  - {fileID: 11400000, guid: 1b008254334c65a43967941711630b02, type: 2}
+  skills:
+  - {fileID: 11400000, guid: 41f89cfd1afbc4e40b425a57464f3eba, type: 2}
+  - {fileID: 11400000, guid: f19ce7a7a5267c54c93c766edcbdf345, type: 2}
+  model: {fileID: 114248404645892236, guid: c0ac42ea2f376734fb29c8257455913d, type: 2}
+  evolveInfo:
+    requiredMaterials:
+    - item: {fileID: 11400000, guid: 322e6b0cb5e77b341a2e3ccaa9909b1c, type: 2}
+      amount: 1
+    evolveItem: {fileID: 11400000, guid: 904ce3bf85d1da747aad95224bb0f9c2, type: 2}

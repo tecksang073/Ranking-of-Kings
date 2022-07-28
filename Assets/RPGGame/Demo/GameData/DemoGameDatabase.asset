@@ -1,0 +1,463 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab232b4dcac7cd64ea772b2f82173081, type: 3}
+  m_Name: DemoGameDatabase
+  m_EditorClassIdentifier: 
+  googleAdRewards:
+  - id: SC
+    rewardSoftCurrency: 1
+    rewardHardCurrency: 0
+    rewardStageStamina: 0
+    rewardArenaStamina: 0
+  - id: HC
+    rewardSoftCurrency: 0
+    rewardHardCurrency: 1
+    rewardStageStamina: 0
+    rewardArenaStamina: 0
+  - id: ST
+    rewardSoftCurrency: 0
+    rewardHardCurrency: 0
+    rewardStageStamina: 1
+    rewardArenaStamina: 0
+  playerMaxLevel: 1000
+  playerExpTable:
+    minValue: 20
+    maxValue: 2000000
+    growth: 2
+  softCurrency:
+    id: GOLD
+    icon: {fileID: 21300000, guid: 74e0bc6e889f16546bfc7f28d7119402, type: 3}
+    icon2: {fileID: 0}
+    icon3: {fileID: 0}
+    startAmount: 10000
+  hardCurrency:
+    id: GEM
+    icon: {fileID: 21300000, guid: af9dd3fb02788de45bd0b30849865d82, type: 3}
+    icon2: {fileID: 0}
+    icon3: {fileID: 0}
+    startAmount: 1000
+  customCurrencies:
+  - id: CLAN_COIN
+    icon: {fileID: 21300000, guid: 19ffa755264c91a48a90e8c9cfd5eb90, type: 3}
+    icon2: {fileID: 0}
+    icon3: {fileID: 0}
+    startAmount: 0
+  stageStamina:
+    id: STAGE_STAMINA
+    icon: {fileID: 21300000, guid: 7aa250f1b825cf24d8154d504c4c9195, type: 3}
+    icon2: {fileID: 0}
+    icon3: {fileID: 0}
+    maxAmountTable:
+      minValue: 15
+      maxValue: 430
+      growth: 2.5
+    refillPrices: 0500000005000000050000000a0000000a0000000a0000000f000000
+    recoverUnit: 1
+    recoverDuration: 3
+  arenaStamina:
+    id: ARENA_STAMINA
+    icon: {fileID: 21300000, guid: 0e829952d93c2fd4d90bd748a04cb772, type: 3}
+    icon2: {fileID: 0}
+    icon3: {fileID: 0}
+    maxAmountTable:
+      minValue: 5
+      maxValue: 5
+      growth: 1
+    refillPrices: 
+    recoverUnit: 1
+    recoverDuration: 10
+  customStaminas:
+  - id: TOWER_STAMINA
+    icon: {fileID: 21300000, guid: a5c28b1a297751d43ad99e12795883b3, type: 3}
+    icon2: {fileID: 0}
+    icon3: {fileID: 0}
+    maxAmountTable:
+      minValue: 5
+      maxValue: 5
+      growth: 1
+    refillPrices: 
+    recoverUnit: 1
+    recoverDuration: 10
+  - id: RAID_STAMINA
+    icon: {fileID: 21300000, guid: f91c2daee387d344fbc898cdb488d7a0, type: 3}
+    icon2: {fileID: 0}
+    icon3: {fileID: 0}
+    maxAmountTable:
+      minValue: 5
+      maxValue: 5
+      growth: 1
+    refillPrices: 
+    recoverUnit: 1
+    recoverDuration: 10
+  formations:
+  - id: STAGE_FORMATION_A
+    title: A
+    icon: {fileID: 0}
+    formationType: 0
+  - id: STAGE_FORMATION_B
+    title: B
+    icon: {fileID: 0}
+    formationType: 0
+  - id: STAGE_FORMATION_C
+    title: C
+    icon: {fileID: 0}
+    formationType: 0
+  - id: ARENA_FORMATION
+    title: Arena
+    icon: {fileID: 0}
+    formationType: 1
+  characterLevelUpMaterialFilter:
+    showCharacter: 1
+    showEquipment: 0
+    showMaterial: 0
+    dontShowInTeamCharacter: 0
+    dontShowEquippedEquipment: 0
+    category: 
+  equipmentLevelUpMaterialFilter:
+    showCharacter: 0
+    showEquipment: 1
+    showMaterial: 1
+    dontShowInTeamCharacter: 0
+    dontShowEquippedEquipment: 0
+    category: 
+  items:
+  - {fileID: 11400000, guid: 9acbc12dd3113754dabc3a3aee20e67f, type: 2}
+  - {fileID: 11400000, guid: acb9ad3bcfd5c5244b348377d424271f, type: 2}
+  - {fileID: 11400000, guid: d411b5586a228454eb157093650db45f, type: 2}
+  - {fileID: 11400000, guid: 322e6b0cb5e77b341a2e3ccaa9909b1c, type: 2}
+  - {fileID: 11400000, guid: 7347dde0b09008247a9ab3dee549cb43, type: 2}
+  - {fileID: 11400000, guid: ad5e60db48cb6a946a0e69c2b70dcf67, type: 2}
+  - {fileID: 11400000, guid: de0c23fd1a9625b4eb79ee93c06b6da3, type: 2}
+  - {fileID: 11400000, guid: 904ce3bf85d1da747aad95224bb0f9c2, type: 2}
+  - {fileID: 11400000, guid: d4a108b78e7a9be41bd11415de1e3996, type: 2}
+  - {fileID: 11400000, guid: d16fa1aa6de5a0b41bef74dd4b90cb52, type: 2}
+  - {fileID: 11400000, guid: 91c5d83daedaf584d983fae483db543a, type: 2}
+  - {fileID: 11400000, guid: 45c53eb702cdd3f4a8235992632f97d6, type: 2}
+  - {fileID: 11400000, guid: ea30fc4a7377dc5429ae070504135d9e, type: 2}
+  - {fileID: 11400000, guid: eb5ef53e465407c4d92607735e0be61b, type: 2}
+  - {fileID: 11400000, guid: 516bbde6eecb2e848bda995e01861ac4, type: 2}
+  - {fileID: 11400000, guid: 2f067cee11752a84fa2b7de0ece6f85d, type: 2}
+  - {fileID: 11400000, guid: da2a7777da42527488345104e1aa8ff3, type: 2}
+  - {fileID: 11400000, guid: 00cbde160955b1f4e80cc9d0b09d9ce1, type: 2}
+  - {fileID: 11400000, guid: f4f4bf899dcce9f4c8b76de70b56569e, type: 2}
+  stages:
+  - {fileID: 11400000, guid: 3eab0c642409adf4db50b5d0ebc52ca4, type: 2}
+  - {fileID: 11400000, guid: cab292f11ff705846b9511c284897a2a, type: 2}
+  - {fileID: 11400000, guid: dd678e0ee245d354f8c973ef626ca3dd, type: 2}
+  - {fileID: 11400000, guid: fa882646f5e7cc241aad4d5edbbc24e8, type: 2}
+  - {fileID: 11400000, guid: 1e169cbbe4597bf44a90749693467ab3, type: 2}
+  - {fileID: 11400000, guid: 0933a1418df1c1f4b8f10db8354e65c7, type: 2}
+  - {fileID: 11400000, guid: c134ecfc775e08f43b303b9503a0375f, type: 2}
+  - {fileID: 11400000, guid: 0b63250b820a57e4b962008ef2eb7c49, type: 2}
+  - {fileID: 11400000, guid: 8520999f6ab4a814abb72ddb3a68c1c3, type: 2}
+  - {fileID: 11400000, guid: 4aed156fd995fa7448bf62fbe1f9946d, type: 2}
+  - {fileID: 11400000, guid: 71dac64c5e758544fadffff809c103c9, type: 2}
+  - {fileID: 11400000, guid: 3cda8e943aebf1a498738799557ba3f2, type: 2}
+  - {fileID: 11400000, guid: ba106a2c5ec61d64684c88c7e68e9d8e, type: 2}
+  - {fileID: 11400000, guid: 982c0bb32320c9f40beba6580e96d86e, type: 2}
+  - {fileID: 11400000, guid: 532ff209ec2d6744daa190ab87403447, type: 2}
+  - {fileID: 11400000, guid: e370d474843c3da499e8dd923a896236, type: 2}
+  - {fileID: 11400000, guid: f5d4f4b97775396418ff65d7edf623b2, type: 2}
+  - {fileID: 11400000, guid: 5881d3ba6f102ea41a82ea98a5a1919d, type: 2}
+  - {fileID: 11400000, guid: 29d53a19779fc634c8500a10b016a651, type: 2}
+  - {fileID: 11400000, guid: 50a55dd6daf687a4681215130aec5eca, type: 2}
+  - {fileID: 11400000, guid: 3b50cb3f0742ec64f9e3938ae66cb036, type: 2}
+  - {fileID: 11400000, guid: d90db50b4ded7a342a4aed9ae95579d7, type: 2}
+  - {fileID: 11400000, guid: 3986792a5d0c61a4aa8c6228e06eecb8, type: 2}
+  - {fileID: 11400000, guid: 8b742c81b5dc5024fa41d82ee4e18839, type: 2}
+  - {fileID: 11400000, guid: 260e48f26cc6b1d418648f88be2bc954, type: 2}
+  - {fileID: 11400000, guid: 5617f5ce82b1b8d4aa8636cd0ef43869, type: 2}
+  - {fileID: 11400000, guid: 1091aa2631d21c64d92a89734448e8d3, type: 2}
+  raidBossStages:
+  - {fileID: 11400000, guid: 765c385a6897e8240b6ee1d61ae70c89, type: 2}
+  clanBossStages:
+  - {fileID: 11400000, guid: f019c532e8bb4b042b684d4ac561af2a, type: 2}
+  achievements:
+  - {fileID: 11400000, guid: 37bcb00110e5dd54791d5b4444fd3908, type: 2}
+  - {fileID: 11400000, guid: c29b0c6a8a7be75499d532face5b2e76, type: 2}
+  - {fileID: 11400000, guid: f24f33c65fe1b4245b953ad8411570cb, type: 2}
+  - {fileID: 11400000, guid: 3cbf42819927f1b48a96f2897c1d7684, type: 2}
+  - {fileID: 11400000, guid: ea83334f52dd4374bb8c8dac6d162974, type: 2}
+  - {fileID: 11400000, guid: 02713d52db0eeca41b32a024aec7d6b3, type: 2}
+  - {fileID: 11400000, guid: 64f96d12170a79d4db16ae8c62c3c518, type: 2}
+  - {fileID: 11400000, guid: 8ee056f7b21189143a9f8ccc9bd8783a, type: 2}
+  - {fileID: 11400000, guid: 16004905b7d99944485c742a3d39b1a8, type: 2}
+  - {fileID: 11400000, guid: 9a34bc63ad3863c4b935ea38676599d8, type: 2}
+  - {fileID: 11400000, guid: 3dccf55df51bec048a77ad928efddad1, type: 2}
+  - {fileID: 11400000, guid: 2eda78dcf353cab44b5fce2b0d4277cb, type: 2}
+  itemCrafts:
+  - {fileID: 11400000, guid: 358b94f2166358f40bae45520e01bc81, type: 2}
+  - {fileID: 11400000, guid: 98c3c20d5f3bfe64ba8a8bd6edc3cbc7, type: 2}
+  lootBoxes:
+  - {fileID: 11400000, guid: e7eee23d8b3c40a458d77af08c833517, type: 2}
+  - {fileID: 11400000, guid: bfa5c0269f0550b4f9d76de7ee272779, type: 2}
+  randomStores:
+  - {fileID: 11400000, guid: c5a60dd0bb4335a43b96ee8bc615a1b8, type: 2}
+  inGamePackages:
+  - {fileID: 11400000, guid: dd868bc3e7c5a234b85ae180f0e63069, type: 2}
+  - {fileID: 11400000, guid: b819717feaab9c248bfcbca2121ba85d, type: 2}
+  - {fileID: 11400000, guid: fcd8955e663ee4244975389f64f59dcd, type: 2}
+  - {fileID: 11400000, guid: 44fa8a5ea5ff9234b8aab17c8df4cbdd, type: 2}
+  - {fileID: 11400000, guid: 7bd2a9231723560429d555e81be4284f, type: 2}
+  iapPackages:
+  - {fileID: 11400000, guid: 723e4f68bc8cf1049996a2ecbe96f897, type: 2}
+  - {fileID: 11400000, guid: d1d23754b277d1b43a7d8e5c16123c06, type: 2}
+  - {fileID: 11400000, guid: 7e8091290a04f6a4ca748f96d8336c0e, type: 2}
+  - {fileID: 11400000, guid: 963d41a222ada8149a633a0a1f470ae6, type: 2}
+  - {fileID: 11400000, guid: 1a1f5c277c4706e4c8b633ae77cb3bcd, type: 2}
+  hardToSoftCurrencyConversion: 0
+  startItems:
+  - item: {fileID: 11400000, guid: 9acbc12dd3113754dabc3a3aee20e67f, type: 2}
+    amount: 5
+  - item: {fileID: 11400000, guid: acb9ad3bcfd5c5244b348377d424271f, type: 2}
+    amount: 5
+  - item: {fileID: 11400000, guid: d411b5586a228454eb157093650db45f, type: 2}
+    amount: 5
+  - item: {fileID: 11400000, guid: eb5ef53e465407c4d92607735e0be61b, type: 2}
+    amount: 5
+  - item: {fileID: 11400000, guid: 516bbde6eecb2e848bda995e01861ac4, type: 2}
+    amount: 5
+  - item: {fileID: 11400000, guid: 2f067cee11752a84fa2b7de0ece6f85d, type: 2}
+    amount: 5
+  - item: {fileID: 11400000, guid: da2a7777da42527488345104e1aa8ff3, type: 2}
+    amount: 5
+  - item: {fileID: 11400000, guid: 00cbde160955b1f4e80cc9d0b09d9ce1, type: 2}
+    amount: 50
+  startCharacters:
+  - {fileID: 11400000, guid: d411b5586a228454eb157093650db45f, type: 2}
+  - {fileID: 11400000, guid: 9acbc12dd3113754dabc3a3aee20e67f, type: 2}
+  - {fileID: 11400000, guid: acb9ad3bcfd5c5244b348377d424271f, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  unlockStages:
+  - {fileID: 11400000, guid: 3eab0c642409adf4db50b5d0ebc52ca4, type: 2}
+  fakePlayers:
+  - profileName: Bot001
+    level: 10
+    arenaScore: 101
+    mainCharacter: {fileID: 11400000, guid: 9acbc12dd3113754dabc3a3aee20e67f, type: 2}
+    mainCharacterLevel: 1
+    arenaCharacters:
+    - character: {fileID: 11400000, guid: ad5e60db48cb6a946a0e69c2b70dcf67, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: ad5e60db48cb6a946a0e69c2b70dcf67, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: d4a108b78e7a9be41bd11415de1e3996, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: d4a108b78e7a9be41bd11415de1e3996, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: 45c53eb702cdd3f4a8235992632f97d6, type: 2}
+      level: 10
+  - profileName: Bot002
+    level: 10
+    arenaScore: 201
+    mainCharacter: {fileID: 11400000, guid: 9acbc12dd3113754dabc3a3aee20e67f, type: 2}
+    mainCharacterLevel: 1
+    arenaCharacters:
+    - character: {fileID: 11400000, guid: ad5e60db48cb6a946a0e69c2b70dcf67, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: ad5e60db48cb6a946a0e69c2b70dcf67, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: d4a108b78e7a9be41bd11415de1e3996, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: d4a108b78e7a9be41bd11415de1e3996, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: 45c53eb702cdd3f4a8235992632f97d6, type: 2}
+      level: 10
+  - profileName: Bot003
+    level: 10
+    arenaScore: 301
+    mainCharacter: {fileID: 11400000, guid: 9acbc12dd3113754dabc3a3aee20e67f, type: 2}
+    mainCharacterLevel: 1
+    arenaCharacters:
+    - character: {fileID: 11400000, guid: ad5e60db48cb6a946a0e69c2b70dcf67, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: ad5e60db48cb6a946a0e69c2b70dcf67, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: d4a108b78e7a9be41bd11415de1e3996, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: d4a108b78e7a9be41bd11415de1e3996, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: 45c53eb702cdd3f4a8235992632f97d6, type: 2}
+      level: 10
+  - profileName: Bot004
+    level: 10
+    arenaScore: 401
+    mainCharacter: {fileID: 11400000, guid: 9acbc12dd3113754dabc3a3aee20e67f, type: 2}
+    mainCharacterLevel: 1
+    arenaCharacters:
+    - character: {fileID: 11400000, guid: ad5e60db48cb6a946a0e69c2b70dcf67, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: ad5e60db48cb6a946a0e69c2b70dcf67, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: d4a108b78e7a9be41bd11415de1e3996, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: d4a108b78e7a9be41bd11415de1e3996, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: 45c53eb702cdd3f4a8235992632f97d6, type: 2}
+      level: 10
+  - profileName: Bot005
+    level: 10
+    arenaScore: 501
+    mainCharacter: {fileID: 11400000, guid: 9acbc12dd3113754dabc3a3aee20e67f, type: 2}
+    mainCharacterLevel: 1
+    arenaCharacters:
+    - character: {fileID: 11400000, guid: ad5e60db48cb6a946a0e69c2b70dcf67, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: ad5e60db48cb6a946a0e69c2b70dcf67, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: d4a108b78e7a9be41bd11415de1e3996, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: d4a108b78e7a9be41bd11415de1e3996, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: 45c53eb702cdd3f4a8235992632f97d6, type: 2}
+      level: 10
+  - profileName: Bot006
+    level: 10
+    arenaScore: 601
+    mainCharacter: {fileID: 11400000, guid: 9acbc12dd3113754dabc3a3aee20e67f, type: 2}
+    mainCharacterLevel: 1
+    arenaCharacters:
+    - character: {fileID: 11400000, guid: ad5e60db48cb6a946a0e69c2b70dcf67, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: ad5e60db48cb6a946a0e69c2b70dcf67, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: d4a108b78e7a9be41bd11415de1e3996, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: d4a108b78e7a9be41bd11415de1e3996, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: 45c53eb702cdd3f4a8235992632f97d6, type: 2}
+      level: 10
+  - profileName: Bot007
+    level: 10
+    arenaScore: 701
+    mainCharacter: {fileID: 11400000, guid: 9acbc12dd3113754dabc3a3aee20e67f, type: 2}
+    mainCharacterLevel: 1
+    arenaCharacters:
+    - character: {fileID: 11400000, guid: ad5e60db48cb6a946a0e69c2b70dcf67, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: ad5e60db48cb6a946a0e69c2b70dcf67, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: d4a108b78e7a9be41bd11415de1e3996, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: d4a108b78e7a9be41bd11415de1e3996, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: 45c53eb702cdd3f4a8235992632f97d6, type: 2}
+      level: 10
+  - profileName: Bot008
+    level: 10
+    arenaScore: 801
+    mainCharacter: {fileID: 11400000, guid: 9acbc12dd3113754dabc3a3aee20e67f, type: 2}
+    mainCharacterLevel: 1
+    arenaCharacters:
+    - character: {fileID: 11400000, guid: ad5e60db48cb6a946a0e69c2b70dcf67, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: ad5e60db48cb6a946a0e69c2b70dcf67, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: d4a108b78e7a9be41bd11415de1e3996, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: d4a108b78e7a9be41bd11415de1e3996, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: 45c53eb702cdd3f4a8235992632f97d6, type: 2}
+      level: 10
+  - profileName: Bot009
+    level: 10
+    arenaScore: 901
+    mainCharacter: {fileID: 11400000, guid: 9acbc12dd3113754dabc3a3aee20e67f, type: 2}
+    mainCharacterLevel: 1
+    arenaCharacters:
+    - character: {fileID: 11400000, guid: ad5e60db48cb6a946a0e69c2b70dcf67, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: ad5e60db48cb6a946a0e69c2b70dcf67, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: d4a108b78e7a9be41bd11415de1e3996, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: d4a108b78e7a9be41bd11415de1e3996, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: 45c53eb702cdd3f4a8235992632f97d6, type: 2}
+      level: 10
+  - profileName: Bot010
+    level: 10
+    arenaScore: 1001
+    mainCharacter: {fileID: 11400000, guid: 9acbc12dd3113754dabc3a3aee20e67f, type: 2}
+    mainCharacterLevel: 1
+    arenaCharacters:
+    - character: {fileID: 11400000, guid: ad5e60db48cb6a946a0e69c2b70dcf67, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: ad5e60db48cb6a946a0e69c2b70dcf67, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: d4a108b78e7a9be41bd11415de1e3996, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: d4a108b78e7a9be41bd11415de1e3996, type: 2}
+      level: 10
+    - character: {fileID: 11400000, guid: 45c53eb702cdd3f4a8235992632f97d6, type: 2}
+      level: 10
+  characterBaseAttributes:
+    hp: 0
+    pAtk: 0
+    pDef: 0
+    mAtk: 0
+    mDef: 0
+    spd: 0
+    eva: 0
+    acc: 0
+    hpRate: 0
+    pAtkRate: 0
+    pDefRate: 0
+    mAtkRate: 0
+    mDefRate: 0
+    spdRate: 0
+    evaRate: 0
+    accRate: 0
+    critChance: 0.05
+    critDamageRate: 1.5
+    blockChance: 0.05
+    blockDamageRate: 1.5
+    resistanceChance: 0
+    bloodStealRateByPAtk: 0
+    bloodStealRateByMAtk: 0
+  revivePrice: 5
+  minAtkVaryRate: 0.07
+  maxAtkVaryRate: 0.07
+  resetItemLevelAfterEvolve: 1
+  arenaRanks:
+  - {fileID: 11400000, guid: ee6fbf55100b0ce419b06ec0f0d34739, type: 2}
+  - {fileID: 11400000, guid: 10916befdc91b3c469d53c54bbcd2ff3, type: 2}
+  - {fileID: 11400000, guid: fd481a3d96916de47b8bd8c729a20fc0, type: 2}
+  - {fileID: 11400000, guid: 9a646350d5c5af54b8b67cb7e6b07f07, type: 2}
+  - {fileID: 11400000, guid: a88cf4f80ceeabb408e60c821a80ae59, type: 2}
+  arenaWinScoreIncrease: 50
+  arenaLoseScoreDecrease: 25
+  arenaEnvironment: {fileID: 11400000, guid: 556bdaa599db2b047b97b333057400d7, type: 2}
+  clanMaxLevel: 50
+  clanExpTable:
+    minValue: 20
+    maxValue: 1000
+    growth: 1.5
+  createClanCurrencyType: 0
+  createClanCurrencyAmount: 10000
+  clanCheckinRewardClanExp: 4
+  clanCheckinRewardCurrencies: []
+  clanDonations:
+  - id: GOLD
+    icon: {fileID: 21300000, guid: 74e0bc6e889f16546bfc7f28d7119402, type: 3}
+    requireCurrencyId: GOLD
+    requireCurrencyAmount: 500
+    rewardCurrencies: []
+    rewardClanExp: 8
+  - id: GEM
+    icon: {fileID: 21300000, guid: af9dd3fb02788de45bd0b30849865d82, type: 3}
+    requireCurrencyId: GEM
+    requireCurrencyAmount: 5
+    rewardCurrencies: []
+    rewardClanExp: 16
+  maxClanDonation: 5

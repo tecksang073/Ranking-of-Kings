@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362301aa94f3ce74789108c568bcd8fa, type: 3}
+  m_Name: ClanBossStage
+  m_EditorClassIdentifier: 
+  title: Test Clan Boss Stage
+  titles: []
+  description: 
+  descriptions: []
+  tag: 
+  category: 
+  icon: {fileID: 21300000, guid: 395be617a3b9b374b87109efde9edbec, type: 3}
+  icon2: {fileID: 0}
+  icon3: {fileID: 0}
+  recommendBattlePoint: 0
+  requireStamina: 1
+  requireCustomStamina: RAID_STAMINA
+  availabilities:
+  - day: 0
+    startTimeHour: 0
+    startTimeMinute: 0
+    durationHour: 23
+    durationMinute: 0
+  - day: 1
+    startTimeHour: 0
+    startTimeMinute: 0
+    durationHour: 23
+    durationMinute: 0
+  - day: 2
+    startTimeHour: 0
+    startTimeMinute: 0
+    durationHour: 23
+    durationMinute: 0
+  - day: 3
+    startTimeHour: 0
+    startTimeMinute: 0
+    durationHour: 23
+    durationMinute: 0
+  - day: 4
+    startTimeHour: 0
+    startTimeMinute: 0
+    durationHour: 23
+    durationMinute: 0
+  - day: 5
+    startTimeHour: 0
+    startTimeMinute: 0
+    durationHour: 23
+    durationMinute: 0
+  - day: 6
+    startTimeHour: 0
+    startTimeMinute: 0
+    durationHour: 23
+    durationMinute: 0
+  hasAvailableDate: 0
+  startYear: 1
+  startMonth: 1
+  startDay: 1
+  durationDays: 0
+  rewards:
+  - damageDealtMin: 5000
+    damageDealtMax: 10000
+    rewardCustomCurrencies:
+    - id: CLAN_COIN
+      amount: 100
+    rewardSoftCurrency: 10000
+    rewardHardCurrency: 0
+    rewardItems: []
+  - damageDealtMin: 10000
+    damageDealtMax: 50000
+    rewardCustomCurrencies:
+    - id: CLAN_COIN
+      amount: 250
+    rewardSoftCurrency: 25000
+    rewardHardCurrency: 0
+    rewardItems: []
+  - damageDealtMin: 50000
+    damageDealtMax: 100000
+    rewardCustomCurrencies:
+    - id: CLAN_COIN
+      amount: 500
+    rewardSoftCurrency: 50000
+    rewardHardCurrency: 0
+    rewardItems: []
+  environment: {fileID: 11400000, guid: 556bdaa599db2b047b97b333057400d7, type: 2}
+  character: {fileID: 11400000, guid: f4f4bf899dcce9f4c8b76de70b56569e, type: 2}
+  level: 1

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e36500cdce81d5944b2cd6cef0c4d17d, type: 3}
+  m_Name: SkillThief01
+  m_EditorClassIdentifier: 
+  title: Double Shot
+  description: Attack 150% damage twice.
+  usageScope: 2
+  icon: {fileID: 21300000, guid: 2bfadbc7787f27f4696d92cd7882cb0f, type: 3}
+  coolDownTurns: 5
+  attacks:
+  - attackScope: 0
+    attackAnimation: {fileID: 11400000, guid: 3e32d588ab234454fb21db2ccc2a8d5b, type: 2}
+    attackDamage:
+      fixDamage: 0
+      pAtkDamageRate: 1.5
+      mAtkDamageRate: 1.5
+      hitCount: 1
+  - attackScope: 4
+    attackAnimation: {fileID: 11400000, guid: 3e32d588ab234454fb21db2ccc2a8d5b, type: 2}
+    attackDamage:
+      fixDamage: 0
+      pAtkDamageRate: 1.5
+      mAtkDamageRate: 1.5
+      hitCount: 1
+  buffs: []
+  castAnimation: {fileID: 11400000, guid: 7e195e261cde96542b38f3a4ddd67346, type: 2}

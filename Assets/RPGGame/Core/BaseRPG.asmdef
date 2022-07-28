@@ -1,0 +1,26 @@
+{
+    "name": "BaseRPG",
+    "references": [
+        "CameraAndInput",
+        "UIUtilities",
+        "UnityEditorUtilsEditor",
+        "UnityEditorUtils",
+        "DevExtension",
+        "UnityEngine.Purchasing",
+        "UnityEngine.Purchasing.Codeless",
+        "UnityEngine.Purchasing.Security",
+        "UnityEngine.Purchasing.SecurityCore",
+        "UnityEngine.Purchasing.SecurityStub",
+        "UnityEngine.Purchasing.Stores",
+        "Purchasing.Common"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

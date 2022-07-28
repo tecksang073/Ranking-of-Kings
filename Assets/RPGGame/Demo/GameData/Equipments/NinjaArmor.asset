@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a26a2b66a9ed3f941a3dc831af8846af, type: 3}
+  m_Name: NinjaArmor
+  m_EditorClassIdentifier: 
+  title: Ninja Armor
+  description: 
+  icon: {fileID: 21300000, guid: b1595ea386dc1e44a8127998231ccebb, type: 3}
+  category: 
+  itemTier: {fileID: 11400000, guid: ca503a7be248b784ebe10c1df6982e84, type: 2}
+  maxStack: 1
+  useFixSellPrice: 0
+  fixSellPrice: 0
+  useFixLevelUpPrice: 0
+  fixLevelUpPrice: 0
+  useFixRewardExp: 0
+  fixRewardExp: 0
+  attributes:
+    hp:
+      minValue: 0
+      maxValue: 0
+      growth: 0
+    pAtk:
+      minValue: 0
+      maxValue: 0
+      growth: 0
+    pDef:
+      minValue: 5
+      maxValue: 20
+      growth: 1.5
+    mAtk:
+      minValue: 0
+      maxValue: 0
+      growth: 0
+    mDef:
+      minValue: 0
+      maxValue: 0
+      growth: 0
+    spd:
+      minValue: 0
+      maxValue: 0
+      growth: 0
+    eva:
+      minValue: 0
+      maxValue: 0
+      growth: 0
+    acc:
+      minValue: 0
+      maxValue: 0
+      growth: 0
+    critChance:
+      minValue: 0
+      maxValue: 0
+      growth: 0
+    critDamageRate:
+      minValue: 0
+      maxValue: 0
+      growth: 0
+    blockChance:
+      minValue: 0
+      maxValue: 0
+      growth: 0
+    blockDamageRate:
+      minValue: 0
+      maxValue: 0
+      growth: 0
+    resistanceChance:
+      minValue: 0
+      maxValue: 0
+      growth: 0
+  randomAttributes:
+    minType: 1
+    maxType: 3
+    minHp: 5
+    maxHp: 10
+    minPAtk: 5
+    maxPAtk: 10
+    minPDef: 5
+    maxPDef: 10
+    minMAtk: 5
+    maxMAtk: 10
+    minMDef: 5
+    maxMDef: 10
+    minSpd: 0
+    maxSpd: 0
+    minEva: 0
+    maxEva: 0
+    minAcc: 0
+    maxAcc: 0
+    minCritChance: 0
+    maxCritChance: 0
+    minCritDamageRate: 0
+    maxCritDamageRate: 0
+    minBlockChance: 0
+    maxBlockChance: 0
+    minBlockDamageRate: 0
+    maxBlockDamageRate: 0
+    minResistanceChance: 0
+    maxResistanceChance: 0
+  hpRateToSetMax: 1
+  pAtkRateToSetMax: 1
+  pDefRateToSetMax: 1
+  mAtkRateToSetMax: 1
+  mDefRateToSetMax: 1
+  spdRateToSetMax: 1
+  evaRateToSetMax: 1
+  accRateToSetMax: 1
+  createEvolveItems: []
+  extraAttributes:
+    hp: 0
+    pAtk: 0
+    pDef: 0
+    mAtk: 0
+    mDef: 0
+    spd: 0
+    eva: 0
+    acc: 0
+    hpRate: 0
+    pAtkRate: 0
+    pDefRate: 0
+    mAtkRate: 0
+    mDefRate: 0
+    spdRate: 0
+    evaRate: 0
+    accRate: 0
+    critChance: 0
+    critDamageRate: 0
+    blockChance: 0
+    blockDamageRate: 0
+    resistanceChance: 0
+  equippablePositions:
+  - Armor
+  evolveInfo:
+    requiredMaterials: []
+    evolveItem: {fileID: 0}

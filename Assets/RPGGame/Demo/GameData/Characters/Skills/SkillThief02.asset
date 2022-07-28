@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e36500cdce81d5944b2cd6cef0c4d17d, type: 3}
+  m_Name: SkillThief02
+  m_EditorClassIdentifier: 
+  title: Poison Arrow
+  description: Attack 100% damage with chance 50% to apply poison
+  icon: {fileID: 21300000, guid: 099be9995a7d9d5469053a38756d0fd9, type: 3}
+  isPassive: 0
+  castAnimation: {fileID: 11400000, guid: 7e195e261cde96542b38f3a4ddd67346, type: 2}
+  usageScope: 2
+  coolDownTurns: 5
+  coolDownIncreaseEachLevel: 0
+  attacks:
+  - attackScope: 0
+    attackAnimation: {fileID: 11400000, guid: 3e32d588ab234454fb21db2ccc2a8d5b, type: 2}
+    attackDamage:
+      fixDamage: 0
+      fixDamageIncreaseEachLevel: 0
+      pAtkDamageRate: 1
+      pAtkDamageRateIncreaseEachLevel: 0
+      mAtkDamageRate: 1
+      mAtkDamageRateIncreaseEachLevel: 0
+      hitCount: 1
+  buffs:
+  - icon: {fileID: 21300000, guid: 099be9995a7d9d5469053a38756d0fd9, type: 3}
+    type: 1
+    buffEffects:
+      bodyEffect: {fileID: 0}
+      floorEffect: {fileID: 114544919222897184, guid: 64ec5a92c27600343841e8682bae29d8,
+        type: 2}
+    applyChance: 0.5
+    applyChanceIncreaseEachLevel: 0
+    attributes:
+      hp: 0
+      pAtk: 0
+      pDef: 0
+      mAtk: 0
+      mDef: 0
+      spd: 0
+      eva: 0
+      acc: 0
+      hpRate: 0
+      pAtkRate: 0
+      pDefRate: 0
+      mAtkRate: 0
+      mDefRate: 0
+      spdRate: 0
+      evaRate: 0
+      accRate: 0
+      critChance: 0
+      critDamageRate: 0
+      blockChance: 0
+      blockDamageRate: 0
+      resistanceChance: 0
+      bloodStealRateByPAtk: 0
+      bloodStealRateByMAtk: 0
+    attributesIncreaseEachLevel:
+      hp: 0
+      pAtk: 0
+      pDef: 0
+      mAtk: 0
+      mDef: 0
+      spd: 0
+      eva: 0
+      acc: 0
+      hpRate: 0
+      pAtkRate: 0
+      pDefRate: 0
+      mAtkRate: 0
+      mDefRate: 0
+      spdRate: 0
+      evaRate: 0
+      accRate: 0
+      critChance: 0
+      critDamageRate: 0
+      blockChance: 0
+      blockDamageRate: 0
+      resistanceChance: 0
+      bloodStealRateByPAtk: 0
+      bloodStealRateByMAtk: 0
+    pAtkHealRate: -0.25
+    pAtkHealRateIncreaseEachLevel: 0
+    mAtkHealRate: -0.25
+    mAtkHealRateIncreaseEachLevel: 0
+    clearBuffs: 0
+    clearNerfs: 0
+    isStun: 0
+    buffScope: 1
+    applyTurns: 2
+    applyTurnsIncreaseEachLevel: 0
